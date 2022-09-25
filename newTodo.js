@@ -5,7 +5,7 @@ let ul = document.querySelector("ul")
 
 function loading() {
 	// body...
-// Create a "close" button and append it to each list item
+// Create a delete button and append it to each list item
 for (var i = 0; i < li.length; i++) {
 	let del = document.createElement('span');
 	let icon = document.createTextNode("del")
